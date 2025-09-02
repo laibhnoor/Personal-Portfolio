@@ -3,6 +3,7 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Home from "./components/Home";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
         id="projects"
         className="h-screen flex items-center justify-center bg-white text-gray-900 text-5xl font-bold"
       >
-        Projects
+        <Projects/>
       </section>
 
       <section id="experience" className="h-screen bg-gray-100 flex items-center justify-center">
